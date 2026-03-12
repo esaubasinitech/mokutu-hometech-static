@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop smart home products at Mokutu HomeTech - WiFi routers, security cameras, smart lighting, and more in Johannesburg, South Africa.">
+  <title>Shop - Mokutu HomeTech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Mokutu <span>HomeTech</span></a>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+
+      </ul>
+      
+      <div class="nav-right">
+        <a href="cart.html" class="cart-icon" aria-label="Shopping cart">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+          <span class="cart-count" style="display: none;">0</span>
+        </a>
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        <button class="hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Smart Home Products</h1>
+      <p>Quality smart home devices hand-picked by our experts for reliability and performance.</p>
+    </div>
+  </section>
+
+  <!-- Products Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-router.jpg" alt="Smart WiFi Router">
+          </div>
+          <div class="product-info">
+            <h3>Smart WiFi Router</h3>
+            <p class="product-price">R2,499</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart WiFi Router', 2499)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-camera.jpg" alt="Wireless Security Camera">
+          </div>
+          <div class="product-info">
+            <h3>Wireless Security Camera</h3>
+            <p class="product-price">R1,899</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Wireless Security Camera', 1899)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-doorbell.jpg" alt="Smart Video Doorbell">
+          </div>
+          <div class="product-info">
+            <h3>Smart Video Doorbell</h3>
+            <p class="product-price">R2,199</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart Video Doorbell', 2199)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-bulb.jpg" alt="Smart LED Bulb">
+          </div>
+          <div class="product-info">
+            <h3>Smart LED Bulb</h3>
+            <p class="product-price">R349</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart LED Bulb', 349)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-plug.jpg" alt="Smart Plug">
+          </div>
+          <div class="product-info">
+            <h3>Smart Plug</h3>
+            <p class="product-price">R299</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart Plug', 299)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-thermostat.jpg" alt="Smart Thermostat">
+          </div>
+          <div class="product-info">
+            <h3>Smart Thermostat</h3>
+            <p class="product-price">R3,299</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart Thermostat', 3299)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-hub.jpg" alt="Smart Home Hub">
+          </div>
+          <div class="product-info">
+            <h3>Smart Home Hub</h3>
+            <p class="product-price">R1,599</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart Home Hub', 1599)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-lock.jpg" alt="Smart Door Lock">
+          </div>
+          <div class="product-info">
+            <h3>Smart Door Lock</h3>
+            <p class="product-price">R2,899</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Smart Door Lock', 2899)">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/product-sensor.jpg" alt="Motion Sensor">
+          </div>
+          <div class="product-info">
+            <h3>Motion Sensor</h3>
+            <p class="product-price">R449</p>
+            <button class="btn btn-primary btn-small" onclick="addToCart('Motion Sensor', 449)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Need Help Choosing?</h2>
+      <p>Our experts can recommend the perfect products for your smart home setup.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-primary">Get Expert Advice</a>
+        <a href="services.html" class="btn btn-secondary">View Installation Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Mokutu <span>HomeTech</span></a>
+          <p>Professional smart home installation and technology services in Johannesburg, South Africa. Making modern living simpler and smarter.</p>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Smart Home Installation</a></li>
+            <li><a href="services.html">WiFi Setup</a></li>
+            <li><a href="services.html">Security Cameras</a></li>
+            <li><a href="services.html">Smart Lighting</a></li>
+            <li><a href="services.html">Device Setup</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Contact Info</h4>
+          <ul class="footer-links">
+            <li>Johannesburg, South Africa</li>
+            <li>info@mokutuhometech.co.za</li>
+            <li>+27 11 123 4567</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mokutu HomeTech. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
