@@ -15,11 +15,11 @@ The objective of the project was to design and develop a fully functional busine
 
 Mokutu HomeTech specializes in:
 
-- **Smart Home Installation** — Complete setup of automated home systems  
-- **WiFi Optimization** — Professional network configuration and mesh systems  
-- **Security Cameras** — Professional installation with remote monitoring  
-- **Smart Lighting** — Automated lighting with scene control  
-- **Device Configuration** — Integration and setup of smart devices  
+- **Smart Home Installation** - Complete setup of automated home systems  
+- **WiFi Optimization** - Professional network configuration and mesh systems  
+- **Security Cameras** - Professional installation with remote monitoring  
+- **Smart Lighting** - Automated lighting with scene control  
+- **Device Configuration** - Integration and setup of smart devices  
 
 ## Features
 
