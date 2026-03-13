@@ -33,14 +33,35 @@ Mokutu HomeTech specializes in:
 
 ## Technology Stack
 
-- **HTML5** — Semantic markup
-- **CSS3** — Modern styling with CSS variables
-- **Vanilla JavaScript (ES6+)** — Client-side functionality
-- **Responsive Design** — Mobile-first approach
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with CSS variables
+- **Vanilla JavaScript (ES6+)** - Client-side functionality
+- **Responsive Design** - Mobile-first approach
 
 ## Project Structure
 
-mokutu-hometech/ ├── README.md                 # Project overview ├── package.json              # Project dependencies ├── docs/                     # Documentation │   ├── CODE_STRUCTURE.md     # File organization guide │   ├── CODE_SNIPPETS.md      # Key features explanation │   └── GETTING_STARTED.md    # Development guide ├── src/ │   ├── pages/                # HTML pages │   │   ├── index.html        # Homepage │   │   ├── about.html        # About us │   │   ├── services.html     # Services page │   │   ├── shop.html         # Product shop │   │   └── contact.html      # Contact form │   ├── styles/               # Stylesheets │   │   └── style.css         # Main stylesheet │   ├── scripts/              # JavaScript │   │   └── main.js           # Core functionality │   └── assets/               # Media files │       └── images/           # Image assets ├── public/                   # Static files └── css/, js/, images/        # Legacy directories (to be removed)
+mokutu-hometech/ 
+├── README.md                 # Project overview 
+├── package.json              # Project dependencies 
+├── docs/                     # Documentation 
+│   ├── CODE_STRUCTURE.md     # File organization guide 
+│   ├── CODE_SNIPPETS.md      # Key features explanation 
+│   └── GETTING_STARTED.md    # Development guide 
+├── src/ 
+│   ├── pages/                # HTML pages 
+│   │   ├── index.html        # Homepage 
+│   │   ├── about.html        # About us 
+│   │   ├── services.html     # Services page 
+│   │   ├── shop.html         # Product shop 
+│   │   └── contact.html      # Contact form 
+│   ├── styles/               # Stylesheets 
+│   │   └── style.css         # Main stylesheet 
+│   ├── scripts/              # JavaScript 
+│   │   └── main.js           # Core functionality 
+│   └── assets/               # Media files 
+│       └── images/           # Image assets 
+├── public/                   # Static files 
+└── css/, js/, images/        # Legacy directories (to be removed)
 
 ## Getting Started
 
